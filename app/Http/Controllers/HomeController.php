@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function login(){
-        return "Login";
+        return view("Login");
     }
     public function register(){
-        return "Register"
+        return view("Register");
     }
     public function updatepass(){
-        return "Updatepass"
+        return view("Updatepass");
     }
 }
